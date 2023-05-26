@@ -7916,4 +7916,6 @@
   <block id="04f76259e3406e39f106d09b85354906" category="inline-link">适用于Exchange备份的SnapCenter 仅会在存储目标日志卷上保留一半的快照</block>
   <block id="cd4ebcda1969773f0f41ef98c13dc3d5" category="admonition">在处理Exchange卷(LUN)时、为日志和数据库创建单独的存储策略、并使用相同的标签将日志策略的保留(保留)设置为每个标签的两倍数量作为数据库策略。有关详细信息、请参见、<block ref="069d987d34ba2a5b3f4862b42bb7f849" category="inline-link-rx"></block>。</block>
   <block id="3a6eb59ee064b09b020c1a87c5de4988" category="admonition">不支持IBM Java。</block>
+  <block id="46d55a8aefdec15a8ce44087c8123826" category="inline-link">操作失败、并显示错误Unable to discover the device for LUN</block>
+  <block id="24642a08e354f43168ca4f1178850f84" category="list-text">您应确保LUN未使用由混合协议iSCSI和FC组成的iGroup映射到AIX主机。有关详细信息，请参见<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>。</block>
 </blocks>
