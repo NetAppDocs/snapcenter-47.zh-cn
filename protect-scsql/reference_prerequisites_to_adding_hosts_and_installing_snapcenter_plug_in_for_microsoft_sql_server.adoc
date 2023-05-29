@@ -25,9 +25,6 @@ http://support.microsoft.com/kb/2926557/["Microsoft 支持文章 2926557 ： SQL
 
 * 在 Windows 主机上安装插件时，如果您指定的凭据不是内置的，或者用户属于本地工作组用户，则必须在主机上禁用 UAC 。
 * 如果安装了 SnapManager for Microsoft SQL Server ，则必须已停止或禁用此服务和计划。
-+
-如果您计划将备份或克隆作业导入到 SnapCenter 中，请勿卸载适用于 Microsoft SQL Server 的 SnapManager 。
-
 * 主机必须可从服务器解析为完全限定域名（ FQDN ）。
 +
 如果修改了 hosts 文件以使其可解析，并且在 hosts 文件中同时指定了短名称和 FQDN ，请在 SnapCenter hosts 文件中按以下格式创建一个条目： <IP_address> <host_FQDN> <host_name>
