@@ -23,10 +23,6 @@ link:concept_develop_a_plug_in_for_your_application.html["为您的应用程序�
 * 您必须已将插件上传到 SnapCenter 服务器。
 
 
-* 关于此任务 *
-
-您还可以为 MySQL 和 DB2 应用程序添加资源。这些插件可从下载 https://automationstore.netapp.com/home.shtml["NetApp 存储自动化商店"]。
-
 * 步骤 *
 
 . 在左侧导航窗格中，单击 * 资源 * ，然后从列表中选择相应的插件。
@@ -75,7 +71,7 @@ Type
 |===
 . 在提供存储占用空间页面中，选择一个存储系统并选择一个或多个卷， LUN 和 qtree ，然后单击 * 保存 * 。
 +
-可选：单击 image:../media/add_policy_from_resourcegroup.gif[""] 图标，用于从其他存储系统添加更多卷， LUN 和 qtree 。
+可选：单击image:../media/add_policy_from_resourcegroup.gif["从资源组添加策略"]图标可从其他存储系统添加更多卷、LUN和qtrees。
 
 +
 

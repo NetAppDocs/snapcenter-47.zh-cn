@@ -59,8 +59,8 @@ NOTE: 如果您的控制器上已安装 SnapManagerSuite 许可证，则系统�
 控制器许可证列显示以下状态：
 
 +
-** image:../media/controller_licensed_icon.gif[""] 表示 SnapManager 套件许可证安装在 FAS 或 AFF 主存储系统上。
-** image:../media/controller_not_licensed_icon.gif[""] 表示 SnapManager 套件许可证未安装在 FAS 或 AFF 主存储系统上。
+** image:../media/controller_licensed_icon.gif["控制器许可证图标"]表示SnapManager套件许可证安装在FAS或AFF主存储系统上。
+** image:../media/controller_not_licensed_icon.gif["控制器未获得许可图标"]表示FAS或AFF主存储系统上未安装SnapManager套件许可证。
 ** 不适用表示 SnapManager 套件许可证不适用，因为存储控制器位于 Cloud Volumes ONTAP ， ONTAP Select 或二级存储平台上。
 
 
@@ -180,7 +180,7 @@ All-Flash Optimized: false
 . 导航到 * 系统 * > * 软件许可证 * 。
 . 在选择条件区域中，确保选择了序列号（位于设备背面），输入控制器序列号，然后单击 * 执行！ * 。
 +
-image::../media/nss_controller_license_select.gif[NSS 控制器许可证选择]
+image::../media/nss_controller_license_select.gif[选择控制器许可证]
 
 +
 此时将显示指定控制器的许可证列表。
@@ -238,7 +238,7 @@ NOTE: 只有在使用基于 SnapCenter 标准控制器的许可证时，才需�
 .. 运行 Open-SmConnection cmdlet ，为 SnapCenterAdmin 帐户启动与 SnapCenter 服务器的连接会话。
 .. 运行 Set-SmRepositoryPassword 以重置 MySQL 密码。
 +
-有关 cmdlet 的信息，请参见 https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["《 SnapCenter 软件 cmdlet 参考指南》"^]。
+有关cmdlet的信息，请参见 https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["《 SnapCenter 软件 cmdlet 参考指南》"^]。
 
 
 

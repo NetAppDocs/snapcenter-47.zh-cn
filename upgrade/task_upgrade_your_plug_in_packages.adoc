@@ -52,7 +52,7 @@ SnapCenter 配置文件示例： SnapDriveService.exe ， SMCoreServiceHost.exe 
 ... 单击 * 升级 * 。
 
 
-** 如果要升级多个主机，请选择所有主机，然后单击 image:../media/more_icon.gif[""]，然后单击 * 升级 * > * 确定 * 。
+** 如果要升级多个主机，请选择所有主机，单击，然后单击 image:../media/more_icon.gif["更多图标"]*Upgrade*>*OK*。
 +
 
 NOTE: 此时将选择软件包中的所有插件，但只会升级随早期版本的 SnapCenter 安装的插件，而不会安装其余插件。您必须使用 * 添加插件 * 选项安装任何新插件。

@@ -10,6 +10,7 @@ summary: 您可以使用 PowerShell cmdlet 备份 SQL Server 数据库或 Window
 :imagesdir: ../media/
 
 
+[role="lead"]
 您可以使用 PowerShell cmdlet 备份 SQL Server 数据库或 Windows 文件系统。其中包括备份 SQL Server 数据库或 Windows 文件系统，包括与 SnapCenter 服务器建立连接，发现 SQL Server 数据库实例或 Windows 文件系统，添加策略，创建备份资源组，备份和验证备份。
 
 * 您需要的内容 *
@@ -110,4 +111,4 @@ PS C:\> Get-SmJobSummaryReport -Date '1/27/2016'
 ----
 
 
-有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考 https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["《 SnapCenter 软件 cmdlet 参考指南》"^]。
+有关可与 cmdlet 结合使用的参数及其说明的信息，可通过运行 _get-help command_name_ 来获取。或者，您也可以参考 https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["《 SnapCenter 软件 cmdlet 参考指南》"^]。

@@ -84,7 +84,7 @@ VS1     Marketing    2.62TB
 . 导航到 * 系统 * > * 软件许可证 * 。
 . 在选择条件区域中，从全部显示：序列号和许可证下拉菜单中选择 * SC_STANDARE* 。
 +
-image::../media/nss_license_selection.gif[选择 NSS 许可证]
+image::../media/nss_license_selection.gif[许可证]
 
 . 键入您的公司名称，然后单击 * 执行！ * 。
 +
@@ -150,7 +150,7 @@ NOTE: 无法使用 SnapCenter 图形用户界面删除试用许可证（序列�
 
 . 在左侧导航窗格中，单击 * 设置 * 。
 . 在设置页面中，单击 * 软件 * 。
-. 在软件页面的许可证部分中，单击 * 添加 * （image:../media/add_policy_from_resourcegroup.gif[""]）。
+. 在“软件”页面的“许可证”部分，单击*Add*image:../media/add_policy_from_resourcegroup.gif["从资源组添加策略"]()。
 . 在添加 SnapCenter 许可证向导中，选择以下方法之一以获取要添加的许可证：
 +
 |===

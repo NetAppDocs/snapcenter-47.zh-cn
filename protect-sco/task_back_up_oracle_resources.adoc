@@ -17,9 +17,9 @@ summary: '如果某个资源不属于任何资源组，您可以从 "Resources" 
 
 . 在左侧导航窗格中，单击 * 资源 * ，然后从列表中选择相应的插件。
 . 在资源页面中，从 * 视图 * 列表中选择 * 数据库 * 。
-. 单击 *image:../media/filter_icon.gif[""]* ，然后选择主机名和数据库类型以筛选资源。
+. 单击*image:../media/filter_icon.gif["筛选器图标"]、然后选择主机名和数据库类型以筛选资源。
 +
-然后，您可以单击 *image:../media/filter_icon.gif[""]* 以关闭筛选器窗格。
+然后、您可以单击**image:../media/filter_icon.gif["筛选器图标"]关闭筛选器窗格。
 
 . 选择要备份的数据库。
 +
@@ -51,12 +51,12 @@ summary: '如果某个资源不属于任何资源组，您可以从 "Resources" 
 .. 从下拉列表中选择一个或多个策略。
 +
 
-NOTE: 您也可以单击 * 来创建策略image:../media/add_policy_from_resourcegroup.gif[""]*
+NOTE: 您也可以单击**来创建策略image:../media/add_policy_from_resourcegroup.gif["从资源组添加策略"]。
 
 +
 在为选定策略配置计划部分中，将列出选定策略。
 
-.. 单击 image:../media/add_policy_from_resourcegroup.gif[""] 在要配置计划的策略的 Configure Schedules 列中。
+.. 单击 image:../media/add_policy_from_resourcegroup.gif["从资源组添加策略"] 要为其配置计划的策略的配置计划列。
 .. 在添加策略 _policy_name_ 的计划窗口中，配置该计划，然后单击 * 确定 * 。
 +
 _policy_name_ 是所选策略的名称。
@@ -69,7 +69,7 @@ _policy_name_ 是所选策略的名称。
 . 在验证页面中，执行以下步骤：
 +
 .. 单击 * 加载定位器 * 以加载 SnapMirror 或 SnapVault 卷，以便在二级存储上执行验证。
-.. 单击 image:../media/add_policy_from_resourcegroup.gif[""] 在 Configure Schedules 列中，为策略的所有计划类型配置验证计划。
+.. 单击 image:../media/add_policy_from_resourcegroup.gif["从资源组添加策略"] 配置计划列、为策略的所有计划类型配置验证计划。
 .. 在添加验证计划 _policy_name_ 对话框中，执行以下操作：
 +
 |===
